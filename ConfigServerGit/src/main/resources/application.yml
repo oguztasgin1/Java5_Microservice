@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/oguztasgin1/java5cloudconfig.git"
+          default-label: main
+          skip-ssl-validation: true
+          username: oguztasgin1
+          password: ${GIT_PASSWORD}
+#Dikkat
+#Burada Password asla ve asla tutulmamalıdır. Bunun yerine env kullanılarak çekilmelidir.
+#Diğer türlü bu bilgiyi GIT e pushladığınız zaman bu token silinecektir
+# ya da hesabınız guvenlik açısından askıya alınacaktır.
