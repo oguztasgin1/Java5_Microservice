@@ -27,6 +27,7 @@ public class RabbitConfig {
         return new Queue(queueAuthCreateUser);
     }
 
+    @Bean
     public Binding bindingCreateAuthUser(final Queue createAuthUserQueue,
                                          final DirectExchange directExchange){
         return BindingBuilder.bind(createAuthUserQueue).to(directExchange).with(keyAuth);
