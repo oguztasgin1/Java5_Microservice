@@ -19,7 +19,7 @@ spring:
     password: burhan71
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
 
 bu-benim-tanimim:
   userprofile-url: http://localhost:9093/api/v1/user
