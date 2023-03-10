@@ -11,7 +11,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @ToString
 @Entity
-@Table(name = "tbluserprofile")
+@Table(name = "tbluser_profile")
 public class UserProfile extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

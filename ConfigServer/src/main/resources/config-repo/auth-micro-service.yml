@@ -1,6 +1,17 @@
 server:
   port: 9090
 
+#logging:
+#  level:
+#    org.springframework: DEBUG
+#    com.oguztasgin: INFO
+#    root: DEBUG
+#  file:
+#    name: auth-service.log
+#  logback:
+#    rollingpolicy:
+#      max-file-size: 20MB
+
 spring:
   rabbitmq:
     host: localhost
@@ -19,7 +30,7 @@ spring:
     password: burhan71
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 
 bu-benim-tanimim:
   userprofile-url: http://localhost:9093/api/v1/user

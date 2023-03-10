@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/ConfigServer" />
             <option value="$PROJECT_DIR$/ConfigServerGit" />
             <option value="$PROJECT_DIR$/ETicaretMicroService" />
+            <option value="$PROJECT_DIR$/ElasticService" />
             <option value="$PROJECT_DIR$/UrunMicroService" />
             <option value="$PROJECT_DIR$/UserMicroService" />
           </set>

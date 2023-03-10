@@ -18,6 +18,6 @@ public class CreateUserConsumer {
     @RabbitListener(queues = "queue-auth-create-user")
     public void createUserConsumerListener(CreateUser createUser){
         System.out.println("Gelen Mesaj....: "+ createUser.toString());
-        userProfileService.save(IUserProfileMapper.INSTANCE.toUserProfile(createUser));
+        userProfileService.save(createUser);
     }
 }

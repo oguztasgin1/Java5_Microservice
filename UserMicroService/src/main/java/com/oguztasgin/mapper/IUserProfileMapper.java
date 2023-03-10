@@ -1,5 +1,6 @@
 package com.oguztasgin.mapper;
 
+import com.oguztasgin.dto.request.UserProfileSaveRequestDto;
 import com.oguztasgin.dto.request.UserSaveResquestDto;
 import com.oguztasgin.rabbitmq.model.CreateUser;
 import com.oguztasgin.repository.entity.UserProfile;
@@ -15,4 +16,7 @@ public interface IUserProfileMapper {
 
     UserProfile toUserProfile(final UserSaveResquestDto dto);
     UserProfile toUserProfile(final CreateUser createUser);
+
+    UserProfileSaveRequestDto toUserProfileSaveRequestDto (final UserProfile userProfile);
+
 }

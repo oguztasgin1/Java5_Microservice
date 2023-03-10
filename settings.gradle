@@ -6,4 +6,5 @@ include 'ETicaretMicroService'
 include 'ConfigServer'
 include 'ConfigServerGit'
 include 'ApiGatewayService'
+include 'ElasticService'
 

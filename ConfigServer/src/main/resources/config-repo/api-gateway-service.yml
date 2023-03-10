@@ -37,3 +37,14 @@ spring:
               args:
                 name: auth
                 fallbackUri: forward:/fallbackuser
+
+logging:
+  level:
+    org.springframework: DEBUG
+    com.oguztasgin: INFO
+    root: DEBUG
+  file:
+    name: api-gateway.log
+  logback:
+    rollingpolicy:
+      max-file-size: 20MB

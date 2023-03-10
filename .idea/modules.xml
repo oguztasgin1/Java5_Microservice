@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ApiGatewayService/Java5_Microservice.ApiGatewayService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ApiGatewayService/Java5_Microservice.ApiGatewayService.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AuthMicroService/Java5_Microservice.AuthMicroService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AuthMicroService/Java5_Microservice.AuthMicroService.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConfigServer/Java5_Microservice.ConfigServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ConfigServer/Java5_Microservice.ConfigServer.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ConfigServerGit/Java5_Microservice.ConfigServerGit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ConfigServerGit/Java5_Microservice.ConfigServerGit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ElasticService/Java5_Microservice.ElasticService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ElasticService/Java5_Microservice.ElasticService.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/UserMicroService/Java5_Microservice.UserMicroService.main.iml" filepath="$PROJECT_DIR$/.idea/modules/UserMicroService/Java5_Microservice.UserMicroService.main.iml" />
     </modules>
   </component>
